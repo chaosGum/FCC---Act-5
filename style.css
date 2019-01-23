@@ -153,5 +153,35 @@ a {
 }
 /* ABOUT ME */
 
+/* QUALITIES */
+#qualities {
+  height: 100vh;
+}
+/* QUALITIES */
+
+/* PROJECTS */
+#projects {
+  height: 100vh;
+}
+/* PROJECTS */
+
+/* HOBBIES */
+#hobbies {
+  height: 100vh;
+}
+/* HOBBIES */
+
+/* RESUME */
+#resume {
+  height: 100vh;
+}
+/* RESUME */
+
+/* REACH ME OUT */
+#contact {
+  height: 100vh;
+}
+/* REACH ME OUT */
+
 
 /* @media */
