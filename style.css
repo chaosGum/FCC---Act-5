@@ -1,0 +1,157 @@
+html, body {
+  color: #fff;
+  background-color: #161616;
+  font-family: "Swanky and Moo Moo", Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* WELCOME SECTION */
+#welcome-section {
+  height: 100vh;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#welcome-section h1 {
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+#me {
+  font-family: Courier, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+#web {
+  display: none;
+  text-align: center;
+  font-family: Courier, Helvetica, sans-serif;
+}
+
+#web h1 {
+  padding-top: .4em;
+  margin-bottom: -0.2em;
+}
+
+#know-click {
+  color: #af4fff;
+  text-decoration: none;
+  font-family: "Swanky and Moo Moo", Helvetica, sans-serif;
+  font-size: 0.7em;
+  border: 1px solid;
+  padding: .2em .8em .2em .8em;
+}
+/* WELCOME SECTION */
+
+
+/* HOME PAGE */
+#home-page {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: .2em;
+}
+
+.home-card {
+  display: flex;
+  align-items: flex-end;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 700px 100%;
+  background-position: center;
+  opacity: .02; 
+}
+
+#about-me-but {
+  background-image: url("https://images.pexels.com/photos/670720/pexels-photo-670720.jpeg?dl&fit=crop&crop=entropy&w=640&h=426");
+}
+
+#qualities-but {
+  background-image: url("https://images.pexels.com/photos/268460/pexels-photo-268460.jpeg?dl&fit=crop&crop=entropy&w=640&h=480");
+}
+
+#projects-but {
+  background-image: url("https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?dl&fit=crop&crop=entropy&w=640&h=426");
+}
+
+#hobbies-but {
+  background-image: url("https://images.pexels.com/photos/1108748/pexels-photo-1108748.jpeg?dl&fit=crop&crop=entropy&w=640&h=449");
+}
+
+#resume-but {
+  background-image: url("https://images.pexels.com/photos/684385/pexels-photo-684385.jpeg?dl&fit=crop&crop=entropy&w=640&h=423");
+}
+
+#contact-but {
+  background-image: url("https://images.pexels.com/photos/177707/pexels-photo-177707.jpeg?dl&fit=crop&crop=entropy&w=640&h=426");
+}
+
+.home-card a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.home-card p {
+  pointer-events: none;
+  font-size: 2em;
+}
+/* HOME PAGE */
+
+/* NAVBAR */
+#navbar {
+  position: fixed;
+  display: none; 
+  background-color: #efefef;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  margin-left: 800px;
+  padding: 0;
+  overflow: hidden;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar li a {
+  display: block;
+  font-weight: 1000;
+  color: #333;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#navbar li a:hover {
+  background-color: #161616;
+  color: #efefef;
+}
+/* NAVBAR */
+
+/* ABOUT ME */
+#about-me {
+  height: 100vh;
+}
+/* ABOUT ME */
+
+
+/* @media */
